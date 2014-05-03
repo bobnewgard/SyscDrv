@@ -86,7 +86,7 @@ define dox
         rm -f Readme.md
         echo "\\mainpage %SyscDrv Project" >> Readme.md
         cat README.md >> Readme.md
-        doxygen doxygen.conf
+        doxygen dox.conf
 endef
 #
 #
